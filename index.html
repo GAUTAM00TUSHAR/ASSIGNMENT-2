@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-2</title>
+
+    <style>
+        body {
+            background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://source.unsplash.com/random);
+            background-size: cover;
+            background-position: center;
+            /* background-color: bisque; */
+        }
+
+        .container {
+            border: 2px solid coral;
+        }
+        
+        h1{
+            text-align: center;
+        }
+
+        h1 > span{
+            font-family: monospace;
+            border: 1px solid transparent;
+            border-radius: 12px;
+            padding: 3px 3px;
+            transition: .3s all ;
+
+        }
+
+        span:hover{
+            font-size: 2rem;
+            background-color: beige;
+        }
+
+        .box {
+            border: 2px solid coral;
+            margin: 10px 10px;
+            padding: 5px 5px;
+            background-color: transparent;
+            transition: 1s;
+        }
+
+        .box:hover {
+            border-color: transparent;
+            background-color: beige;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1><span>By >> Tushar-Gautam</span></h1>
+        <div class="box" id="Emphasized-Text">
+            <!-- Anything that appears within <em>...</em> element is displayed as emphasized text. -->
+            This is the example of `<em>Emphasized</em>` text!
+            <!--  -->
+        </div>
+
+        <div class="box" id="Marked-Text">
+            <!-- Anything that appears with-in <mark>...</mark> element, is displayed as marked with yellow ink. -->
+            This is an instance of `<mark>Marked</mark>` text!
+        </div>
+
+        <div class="box" id="Text-Abbreviation">
+            <!-- You can abbreviate a text by putting it inside opening <abbr> and closing </abbr> tags. If present,                   the title attribute must contain this full description and nothing else. -->
+            This is an example of `<abbr>Text-Abbreviation</abbr>` text!
+        </div>
+
+        <div class="box" id="Acronym-Text">
+            <!-- In HTML 4 acronym tag was used for showing abbreviations which is now shown by abbr(Abbreviation)tag -->
+            <!-- At present, the major browsers do not change the appearance of the content of the <acronym> element. it has         been deprecrated -->
+            This is an Instance of `<acronym>Acronym</acronym>` text!
+        </div>
+
+
+        <div class="box" id="Special-Terms">
+            <!-- Typically, you would use the <dfn> element the first time you introduce a key term. Most recent browsers             render the content of a <dfn> element in an italic font. -->
+            This is an Instance of `<dfn>Specia-Terms</dfn>` text!
+        </div>
+
+
+        <div class="box" id="Short-Quotation">
+            <!-- The <q>...</q> element is used when you want to add a double quote within a sentence. -->
+            This is an instance of `<q>Short\Double Quotations</q>` text!
+        </div>
+
+        <div class="box" id="Text-Citation">
+            <!-- As you would expect in a print publication, the content of the <cite> element is rendered in italicized              text by  default. -->
+            This is an example of `<cite>Text-Citation</cite>` text!
+        </div>
+
+        <div class="box" id="Programming-Text">
+            <!-- Usually the content of the <code> element is presented in a monospaced font, just like the code in most       programming books -->
+            This is an example of `<code>Programming</code>` text!
+        </div>
+
+        <div class="box" id="Address-Text">
+            <!-- The <address>...</address> element is used to contain any address. -->
+            This is an example of `<address>#69 Address text!</address>`
+        </div>
+
+        <div class="box" id="Text-Direction">
+            <!-- The <bdo>...</bdo> element stands for Bi-Directional Override and it is used to override the current                  text direction. -->
+            This is an example of `<p dir="rtl">Text-Direction!</p>`
+        </div>
+
+        <div class="box" id="Quoting-Texting">
+            <!-- Text inside a <blockquote> element is usually indented from the left and right edges of the surrounding             text, and sometimes uses an italicized font. -->
+            This is an example of `<blockquote>Blockquote</blockquote>` text!
+        </div>
+    </div>
+
+</body>
+
+</html>
